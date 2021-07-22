@@ -14,9 +14,33 @@
     width: 1000px;
     margin: 0 auto;
   }
+
+  .pic-div{
+    display: inline-block;
+    /* background-color: black; */
+  }
+
+  .nav-div {
+    display: inline-block;
+    float: right;
+  }
+
+  .logo-nav {
+    display: inline-block;
+
+  }
   
    nav ul {
     list-style-type: none;
+    /* text-align: right; */
+    /* background-color: black; */
+    /* display: inline; */
+    /* float: right; */
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 20px;
   }
   
   nav a {
@@ -24,6 +48,7 @@
     color: white;
     display: inline-block;
   }
+
   
   .alert-div {
     background-color: pink;
@@ -76,7 +101,7 @@
   box-shadow: 5px 5px 5px 5px lightgray;
   border-radius: 10px;
   display: inline-block;
-  padding: 20px;
+  padding: 50px;
 }
 
 .icon-container {
